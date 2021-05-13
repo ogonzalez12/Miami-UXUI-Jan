@@ -1,0 +1,35 @@
+
+div {
+    border: 1px #333 solid;
+}
+
+section {
+    background-color: lightgray;
+    padding: 80px 40px;
+
+}
+
+img {
+    /* width: 100%; */
+}
+
+.card {
+    width: 250px;
+}
+
+
+.img-card {
+    width: 100%;
+}
+
+.img-feat {
+    width: 80px;
+    height: 80px;
+}
+
+#hero {
+    background-image: url('../img/EZ2A5746.jpg');
+    background-size: cover;
+    height: 60vh;
+    text-align: center;
+}
