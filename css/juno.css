@@ -1,8 +1,8 @@
 * {
-    font-family: 'Exo 2', sans-serif;
+    font-family: ‘Exo 2’, sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Krona One', sans-serif;
+    font-family: ‘Krona One’, sans-serif;
 }
 h1 {
     font-size: 4.209rem;
@@ -23,7 +23,7 @@ h6 {
     font-size: 1.25rem;
 }
 p {
-    color: #333;
+   color: #333;
 }
 div {
     border: 1px #333 solid;
@@ -47,23 +47,23 @@ a:link, a:visited {
     padding: 10px;
 }
 a:hover {
-    color: midnightblue;
+    color:midnightblue;
 }
 a:active {
-    color: olive;
+    color:olive;
 }
 /* CTA Button */
 a.cta-button:link, a.cta-button:visited {
     background-color: orangered;
     border-radius: 8px;
-    color: whitesmoke;
+    color:whitesmoke;
     padding: 16px 24px;
 }
 a.cta-button:hover {
     background-color: tomato;
 }
 a.cta-button:active {
-    background-color: darkred;
+    background-color:darkred;
 }
 /* CV Download Button */
 a.cv-button:link, a.cv-button:visited {
@@ -92,7 +92,7 @@ a.cv-button:active {
 .icons {
     font-size: 24px;
 }
-.container{
+.container {
     display: flex;
 }
 .author-card {
@@ -104,7 +104,7 @@ a.cv-button:active {
     margin-right: 8px;
 }
 #hero {
-    background-image: url('../img/EZ2A5746.jpg');
+    background-image: url(‘../img/fahmi-fakhrudin-nzyzAUsbV0M-unsplash.jpg’);
     background-size: cover;
     height: 30vh;
     text-align: center;
