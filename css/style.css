@@ -110,7 +110,17 @@ a.cv-button:active {
     width: 250px;
 }
 
+.img-holder {
+    position: relative;
+    height: 180px;
+    width: 100%;
+    overflow: hidden; /* this crops the immage */
+}
+
 .img-card {
+    position: absolute;
+    right: 0;
+    bottom: 0;
     width: 100%;
 }
 
@@ -138,9 +148,20 @@ a.cv-button:active {
     margin-right: 8px;
 }
 
-.feat-card {
-
+.feat-item{
+    flex-grow: 1;
 }
+
+.btn-rocio {
+    font-family: 'Poppins', sans-serif;
+    color: #131045;
+    background-color: white;
+    border: 3px solid #131045;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 0 #131045;
+    border-radius: 100px;
+}
+ 
 
 #hero {
     background-image: url('../img/EZ2A5746.jpg');
@@ -166,4 +187,8 @@ a.cv-button:active {
 #contact {
     justify-content: space-around;
     background-color: wheat;
+}
+
+#video {
+    padding: 0;
 }
