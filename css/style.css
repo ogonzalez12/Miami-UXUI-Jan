@@ -33,7 +33,7 @@ p {
 }
 
 div {
-    border: 1px #333 solid;
+    /*border: 1px #333 solid;*/
 }
 
 section {
@@ -54,6 +54,61 @@ footer {
 
 img {
     /* width: 100%; */
+}
+video {
+    width: 100%;
+}
+
+/* Forms */
+
+input {
+    padding: 16px 24px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+input:focus {
+    background-color: lightyellow;
+    border: none;
+}
+
+input[type=text] {
+    background-image: url('../Icons/user-line.png');
+    background-repeat: no-repeat;
+    background-position: 8px;
+    padding-left: 40px;
+    width: 77%;
+}
+
+input[type=email] {
+    background-image: url('../Icons/mail-line.png');
+    background-repeat: no-repeat;
+    background-position: 8px;
+    padding-left: 40px;
+    width: 77%;
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 16px 24px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid grey;
+    resize: none;
+}
+
+input[type=submit] {
+    border: none;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    width: 90%;
+}
+
+#btn-form {
+    width: 90%;
 }
 
 /* LINKS */
@@ -161,6 +216,10 @@ a.cv-button:active {
     box-shadow: 4px 4px 0 #131045;
     border-radius: 100px;
 }
+
+.div-contact {
+
+}
  
 
 #hero {
@@ -188,6 +247,8 @@ a.cv-button:active {
     justify-content: space-around;
     background-color: wheat;
 }
+
+
 
 #video {
     padding: 0;
