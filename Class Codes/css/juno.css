@@ -30,7 +30,7 @@ p {
    color: #333;
 }
 div {
-    border: 1px #333 solid;
+    /* border: 1px #333 solid; */
 }
 section {
     background-color: lightgray;
@@ -50,6 +50,57 @@ img {
 }
 video {
     width: 100%;
+}
+/* Forms */
+input {
+    padding: 16px 24px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+input:focus {
+    background-color: lightyellow;
+    outline: 0;
+}
+input[type=text] {
+    box-sizing: border-box;
+    width: 80%;
+    background-image: url(‘../icons/user-line.png’);
+    background-repeat: no-repeat;
+    background-position: 8px;
+    padding-left: 40px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06)
+}
+input[type=email] {
+    box-sizing: border-box;
+    width: 80%;
+    background-image: url(‘../icons/mail-line.png’);
+    background-repeat: no-repeat;
+    background-position: 8px;
+    padding-left: 40px;
+}
+textarea {
+    box-sizing: border-box;
+    width: 80%;
+    height: 150px;
+    padding: 16px 24px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid grey;
+    resize: none;
+}
+textarea:focus {
+    outline: 0;
+    background-color:lightyellow;
+}
+input[type=submit] {
+    border: none;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+#btn-form {
+    width: 80%;
 }
 /* LINKS */
 a:link, a:visited {
@@ -136,6 +187,9 @@ a.btn-rocio {
     box-shadow: 4px 4px 0 #131045;
     border-radius: 100px;
 }
+.div-contact {
+    flex: 1;
+}
 #hero {
     background-image: url(‘../img/fahmi-fakhrudin-nzyzAUsbV0M-unsplash.jpg’);
     background-size: cover;
@@ -154,6 +208,9 @@ a.btn-rocio {
 #contact {
     justify-content: space-around;
     background-color: wheat;
+}
+#contact div {
+    padding: 20px;
 }
 #video {
     padding: 0;

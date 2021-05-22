@@ -70,23 +70,26 @@ input {
 
 input:focus {
     background-color: lightyellow;
-    border: none;
+    border: 0;
 }
 
 input[type=text] {
+    box-sizing: border-box;
+    width: 80%;
     background-image: url('../Icons/user-line.png');
     background-repeat: no-repeat;
     background-position: 8px;
     padding-left: 40px;
-    width: 77%;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06)
 }
 
 input[type=email] {
+    box-sizing: border-box;
+    width: 80%;
     background-image: url('../Icons/mail-line.png');
     background-repeat: no-repeat;
     background-position: 8px;
     padding-left: 40px;
-    width: 77%;
 }
 
 textarea {
@@ -99,16 +102,21 @@ textarea {
     resize: none;
 }
 
+
+textarea:focus {
+    outline: 0;
+    background-color: lightyellow;
+}
+
 input[type=submit] {
     border: none;
     background-color: orangered;
     color: white;
     cursor: pointer;
-    width: 90%;
 }
 
 #btn-form {
-    width: 90%;
+    width: 80%;
 }
 
 /* LINKS */
@@ -183,6 +191,7 @@ a.cv-button:active {
     width: 80px;
     height: 80px;
     border-radius: 50px;
+    margin: 20px;
 }
 
 .icons {
@@ -218,9 +227,8 @@ a.cv-button:active {
 }
 
 .div-contact {
-
+    flex: 1;
 }
- 
 
 #hero {
     background-image: url('../img/EZ2A5746.jpg');
@@ -248,7 +256,9 @@ a.cv-button:active {
     background-color: wheat;
 }
 
-
+#contact div {
+    padding: 20px;
+}
 
 #video {
     padding: 0;
