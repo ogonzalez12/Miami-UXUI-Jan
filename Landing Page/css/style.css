@@ -39,3 +39,7 @@ p {
 .hero-img {
     height: 300px;
 }
+
+.card {
+    width: 250px;
+}
